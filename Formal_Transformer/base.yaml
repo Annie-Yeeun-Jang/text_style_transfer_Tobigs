@@ -1,0 +1,60 @@
+
+
+########## path ##########
+data_path: './dataset/'
+ckpt_path: './checkpoints/'
+model_path: './models/'
+output_path: './outputs/'
+infer_path: '../Native_Transformer/dataset' # native transformer의 output path
+
+########## ckpt/pt file ##########
+embed_pt: './checkpoints/embedding.pt'
+cs_pt: 'classifier.pt' # textCNN pt
+st_ckpt: 'bart_modify10000.chkpt' # style transfer ckpt
+
+
+########## textCNN parameters ##########
+classifier:
+    lr: 1e-3
+    dataset: em
+    embed_dim: 300
+    seed: 42
+    min_count: 0
+    dropout: 0.5
+    max_len: 50
+    log_step: 100
+    eval_step: 1000
+    batch_size: 32
+    epoch: 15
+
+
+train:
+    no: 'store_true' # reward 여부 (SC+BLEU reward) # 'no reward'
+    sc: 'store_true' # SC reward 여부 # 'the SC-based reward'
+    bl: 'store_true' # BLEU-based reward 여부  # BLEU-based reward
+    order: '0' # training 순서
+    style: 0 # informal(0) to formal(1)
+    lr: 1e-5
+    ratio: 1. # 데이터 비율
+    model: 'bart'
+    steps: 10000 # 최대 step
+    batch_size: 32
+    max_len: 16
+    dropout: 0.5
+    patience: 2 # early stopping fine-tune
+    seed: 42
+    log_step: 100
+    eval_step: 1000
+    # 추가
+    save_epoch: 0 # 불러오는 ckpt epoch 수
+
+
+infer:
+    k: 10
+    p: 0.9
+    length: 16
+    order: 0
+    seed: 42
+    style: 0
+    num_beams: 5
+    repetition_penalty: 4.0
