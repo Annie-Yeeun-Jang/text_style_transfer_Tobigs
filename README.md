@@ -65,7 +65,7 @@ cd text_style_transfer_Tobigs
 ```python
 cd native_transformer
 # train
-python train.py
+python main.py
 # infer
 python test.py
 ```
