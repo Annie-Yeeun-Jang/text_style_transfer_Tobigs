@@ -1,7 +1,7 @@
 
 
 ########## path ##########
-data_path: './dataset/'
+data_path: '../Style_Transformer/save/'
 ckpt_path: './checkpoints/'
 model_path: './models/'
 output_path: './outputs/'
