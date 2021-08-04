@@ -49,7 +49,10 @@
 ## :speaker: Usage
 
 ---
-
+### Requirements
+```py
+pip install transformers==2.5.1 pytorch_pretrained_bert fasttext
+```
 
 ### Installation
 
