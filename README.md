@@ -51,7 +51,7 @@
 ---
 ### Requirements
 ```py
-pip install transformers==2.5.1 pytorch_pretrained_bert fasttext
+pip install transformers==2.5.1 pytorch_pretrained_bert fasttext embeddings
 ```
 
 ### Installation
