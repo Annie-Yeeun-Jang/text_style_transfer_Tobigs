@@ -88,7 +88,7 @@ python test.py
 입력된 문장을 Native하면서 Formal하게 변환해주는 모델을 한번에 실행시키는 코드입니다.
 
 ```python
-python3 text_style_transfer_Tobigs/infer.sh
+python infer.sh
 ```
 
 ## :page_facing_up: Results
