@@ -75,7 +75,6 @@ python test.py
 
 
 ```python
-cd ..
 cd Formal_Transformer
 # train
 python train.py
