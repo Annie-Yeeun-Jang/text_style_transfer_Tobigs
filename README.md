@@ -63,7 +63,7 @@ cd text_style_transfer_Tobigs
 
 
 ```python
-cd native_transformer
+cd Style_Transformer
 # train
 python main.py
 # infer
@@ -75,7 +75,7 @@ python test.py
 
 
 ```python
-cd formality_style_transfer
+cd Formal_transfer
 # train
 python train.py
 # infer
@@ -88,11 +88,10 @@ python test.py
 입력된 문장을 Native하면서 Formal하게 변환해주는 모델을 한번에 실행시키는 코드입니다.
 
 ```python
-python infer.sh
+python3 infer.sh
 ```
 
 ## :page_facing_up: Results
-
 ---
 
 <img width="1230" alt="Result5" src="https://user-images.githubusercontent.com/55127132/127155733-15b1f653-24f9-4eb1-8157-a8cb756b0abe.png">
