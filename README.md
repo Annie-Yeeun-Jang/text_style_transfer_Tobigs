@@ -108,7 +108,7 @@ python infer.sh
 <table>
   <tr>
     <td align="center"><a href="https://github.com/KimJaehee0725"><img src="https://user-images.githubusercontent.com/55127132/127152281-9144b1b8-896b-4d6f-b25e-971891b28da8.png" width="200" height="200"><br /><sub><b>Jaehee Kim</b></sub></td>
-    <td align="center"><a href="https://github.com/EUN316"><img src="https://user-images.githubusercontent.com/55127132/127152282-69bb1221-f418-42de-9bd7-872ed5be5f60.png" width="200" height="200"><br /><sub><b>Jeongeun Lee</b></sub></td>
+    <td align="center"><a href="https://github.com/EUN316"><img src="https://user-images.githubusercontent.com/55127132/127152282-69bb1221-f418-42de-9bd7-872ed5be5f60.png" width="200" height="200"><br /><sub><b>Junggeun Lee</b></sub></td>
     <td align="center"><a href="https://github.com/Annie-Yeeun-Jang"><img src="https://user-images.githubusercontent.com/55127132/127152286-5699dff6-bf7f-4e65-b67c-2d8b8716368c.png" width="200" height="200"><br /><sub><b>Yeeun Jang</b></sub></td>
     <td align="center"><a href="https://github.com/hyyoka"><img src="https://user-images.githubusercontent.com/55127132/127152266-d38debab-199a-493a-bf2e-cdbc82d80e89.png" width="200" height="200"><br /><sub><b>Hyowon Cho</b></sub></td>
   </tr>
