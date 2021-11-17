@@ -1,5 +1,5 @@
 # text_style_transfer_Tobigs
-투빅스 컨퍼런스 Text Style Transfer
+투빅스 컨퍼런스 Text Style Transfer \  (Description translated in English)
 Text Style Transfer project for 12th Tobig's Confernce
 
 # :speech_balloon: Native/Formal Text Style Converter
@@ -10,7 +10,7 @@ Text Style Transfer project for 12th Tobig's Confernce
 
 
 **Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다. \
-Native/Formal Text Style Converter is a 
+Native/Formal Text Style Converter is a style transfer model converting non-native and informal texts into native and formal style.
 
 해당 프로젝트는 제 12회 투빅스 컨퍼런스에서 발표되었으며, 자세한 내용은 아래 링크를 통해 확인할 수 있습니다. \
 This project was presented in 12th Tobig's Conference. Please refer to the link for more information. (Slide and video are in Korean)
