@@ -1,6 +1,6 @@
 # text_style_transfer_Tobigs
-투빅스 컨퍼런스 Text Style Transfer \  
-(Description translated in English) \
+투빅스 컨퍼런스 Text Style Transfer\  
+**Description translated in English** \
 Text Style Transfer project for 12th Tobig's Confernce
 
 # :speech_balloon: Native/Formal Text Style Converter
@@ -98,7 +98,7 @@ python test.py
 ### Native/Formal Text Style Converter
 
 
-입력된 문장을 Native하면서 Formal하게 변환해주는 모델을 한번에 실행시키는 코드입니다.
+입력된 문장을 Native하면서 Formal하게 변환해주는 모델을 한번에 실행시키는 코드입니다.\
 To run the whole process, run the following command :
 
 ```python
