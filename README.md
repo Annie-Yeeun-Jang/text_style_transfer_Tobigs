@@ -9,7 +9,7 @@ Text Style Transfer project for 12th Tobig's Confernce
 <img width="1232" alt="MAIN" src="https://user-images.githubusercontent.com/55127132/127155380-f2e41809-e8f5-4454-bf19-e44c0be93e10.png">
 
 
-**Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다.
+**Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다. \\
 Native/Formal Text Style Converter is a 
 
 해당 프로젝트는 제 12회 투빅스 컨퍼런스에서 발표되었으며, 자세한 내용은 아래 링크를 통해 확인할 수 있습니다.
