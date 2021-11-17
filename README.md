@@ -9,10 +9,10 @@ Text Style Transfer project for 12th Tobig's Confernce
 <img width="1232" alt="MAIN" src="https://user-images.githubusercontent.com/55127132/127155380-f2e41809-e8f5-4454-bf19-e44c0be93e10.png">
 
 
-**Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다. //
+**Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다. \
 Native/Formal Text Style Converter is a 
 
-해당 프로젝트는 제 12회 투빅스 컨퍼런스에서 발표되었으며, 자세한 내용은 아래 링크를 통해 확인할 수 있습니다.
+해당 프로젝트는 제 12회 투빅스 컨퍼런스에서 발표되었으며, 자세한 내용은 아래 링크를 통해 확인할 수 있습니다. \
 This project was presented in 12th Tobig's Conference. Please refer to the link for more information. (Slide and video are in Korean)
 
 <a href="https://youtu.be/IMQCepyWL-Y"><img src="https://img.shields.io/badge/File-link-informational"></a>
@@ -22,7 +22,7 @@ This project was presented in 12th Tobig's Conference. Please refer to the link 
 
 ----
 
-모델마다 다른 특징을 가진 데이터가 필요하여 총 4가지의 데이터를 사용하였습니다.
+모델마다 다른 특징을 가진 데이터가 필요하여 총 4가지의 데이터를 사용하였습니다. \
 We used four different datasets for two different models.
 
 #### Non-Native / Native Data
