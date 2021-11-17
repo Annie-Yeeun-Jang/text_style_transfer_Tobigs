@@ -1,5 +1,6 @@
 # text_style_transfer_Tobigs
-투빅스 컨퍼런스 Text Style Transfer \  (Description translated in English)
+투빅스 컨퍼런스 Text Style Transfer \  
+(Description translated in English) \
 Text Style Transfer project for 12th Tobig's Confernce
 
 # :speech_balloon: Native/Formal Text Style Converter
