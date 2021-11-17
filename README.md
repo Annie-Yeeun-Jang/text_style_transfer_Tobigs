@@ -1,5 +1,7 @@
 # text_style_transfer_Tobigs
 투빅스 컨퍼런스 Text Style Transfer
+Text Style Transfer project for 12th Tobig's Confernce
+
 # :speech_balloon: Native/Formal Text Style Converter
 
 ----
@@ -8,8 +10,10 @@
 
 
 **Native/Formal Text Style Converter** 는 입력된 영어 문장을 Native하면서 Formal하게 만들어주는 모델입니다.
+Native/Formal Text Style Converter is a 
 
 해당 프로젝트는 제 12회 투빅스 컨퍼런스에서 발표되었으며, 자세한 내용은 아래 링크를 통해 확인할 수 있습니다.
+This project was presented in 12th Tobig's Conference. Please refer to the link for more information. (Slide and video are in Korean)
 
 <a href="https://youtu.be/IMQCepyWL-Y"><img src="https://img.shields.io/badge/File-link-informational"></a>
 <a href="http://www.datamarket.kr/xe/board_pdzw77/74578"><img src="https://img.shields.io/badge/YouTube-link-critical"></a>
@@ -19,16 +23,21 @@
 ----
 
 모델마다 다른 특징을 가진 데이터가 필요하여 총 4가지의 데이터를 사용하였습니다.
+We used four different datasets for two different models.
 
 #### Non-Native / Native Data
 
 * **YELC(Yonsei English Learners' Corpus)** 
   * 연세대학교 신입생이 실시한 영어진단평가 데이터로, CEFR을 기준으로 A1-C2로 Proficiency를 표현
+  * The essays are written by freshmen at Yonsei University for english proficiency. The level of proficiency is labeled ranging A1-C2 based on CEFR standard
   * A1-A2 : Non-native data / C1-C2: Native data로 사용
+  * Labeled A1-A2 level as Non-native, C1-C2 level as Native
   
 * **USECorpus (Uppsala Student English Corpus)** 
   * 440명의 스웨덴 대학생들이 쓴 에세이 데이터로, 수강한 학기 별로 A-C로 구분 (A가 첫 학기에 수강한 과목) 
+  * The essays are written by university students in Sweden, labeled by the semester the courses are taken. (A for the first semester, C for the last)
   * A : Non-native data / C: Native data로 사용
+  * Used essay labeled 'A' as Non-native, and 'C' as Native, discarded data with label 'B'
 
 
 #### Native Data
@@ -89,6 +98,7 @@ python test.py
 
 
 입력된 문장을 Native하면서 Formal하게 변환해주는 모델을 한번에 실행시키는 코드입니다.
+To run the whole process, run the following command :
 
 ```python
 python infer.sh
